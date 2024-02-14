@@ -57,23 +57,10 @@ void read_file(char *content, char filename[256]) {
 } 
 
 void lex(char code[], token *tokens) {
-  char tok[16] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-  int tok_index = 0; // what char in the current token are we in?
-  int token_index = 0; // what token are we in the tokens array?
-  for (int i = 0; i <= strlen(code), i++) {
-    tok[tok_index] = code[i];
-    
-    if (strcmp(tok, ""))
-
-    // else: try to convert as an int
-
-    tok_index++;
-  }
 
 }
 
 int main() {
   file_len("src/main.c");
-  token toks[2048];
   return 0;
 }
